@@ -42,7 +42,8 @@
 
 				</div><!-- .site-branding -->
 
-				<nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation">
+				<nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation"
+                    style="margin: 32px 0 0 0;">
 					<?php
 						// Display Main Navigation.
 						wp_nav_menu( array(
