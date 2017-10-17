@@ -15,6 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" type="text/css" href="wp-content/themes/poseidon-dlss/custom/particles.css" />
 
 <?php wp_head(); ?>
 </head>
@@ -31,7 +32,9 @@
 
 			<div class="header-main container clearfix">
 
-				<div id="logo" class="site-branding clearfix">
+				<div id="logo" class="site-branding clearfix" style="display: -ms-flexbox; display: -webkit-flex;
+				    display: flex; -ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center;
+				    align-items: center;">
 
 					<?php poseidon_site_logo(); ?>
 					<?php poseidon_site_title(); ?>

@@ -1,7 +1,7 @@
 /*
-Theme Name: Poseidon
+Theme Name: Poseidon DLSS
 Theme URI: https://themezee.com/themes/poseidon/
-Author: ThemeZee
+Author: Alicja Kwasniewska, Maciej Szankin, Original work: ThemeZee
 Author URI: https://themezee.com
 Description: Poseidon is an elegant designed WordPress theme featuring a splendid fullscreen image slideshow. The clean typography and spacious white layout makes it great to share your stories. You can use the theme as simple blog or easily create a news website with the widget-based Magazine Homepage template.
 Version: 1.4.1
@@ -743,7 +743,7 @@ textarea {
 	max-width: 100%;
 	height: auto;
 	border: none;
-	vertical-align: top;
+	/*vertical-align: top;*/
 }
 
 .site-description {
@@ -1752,8 +1752,21 @@ body.date-hidden.author-hidden.categories-hidden .content-area .entry-meta {
 # 12.0 - Footer
 --------------------------------------------------------------*/
 .footer-wrap {
-	border-top: 1px solid rgba(0,0,0,0.12);
-	background: #fff;
+	/*border-top: 1px solid rgba(0,0,0,0.12);*/
+	/*background: #fff;*/
+	border-top:1px solid #265582;
+	padding:0;
+	margin:0;
+	background: #011122;
+	color: #FFF;
+}
+
+.footer-wrap table, .footer-wrap tr, .footer-wrap td{
+	border:0;
+}
+
+.footer-wrap a, .footer-wrap a:visited{
+	color: #265582;
 }
 
 .site-footer {
@@ -1762,7 +1775,7 @@ body.date-hidden.author-hidden.categories-hidden .content-area .entry-meta {
 }
 
 .site-footer .site-info {
-	float: left;
+	/*float: left;*/
 	padding: 2em 0;
 }
 

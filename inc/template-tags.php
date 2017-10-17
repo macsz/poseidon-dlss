@@ -104,8 +104,10 @@ if ( ! function_exists( 'poseidon_header_image' ) ) :
 
 			<?php else : ?>
 
-				<img src="<?php header_image(); ?>" srcset="<?php echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id, 'full' ) ); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-
+<!--				<img src="--><?php //header_image(); ?><!--" srcset="--><?php //echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id, 'full' ) ); ?><!--" width="--><?php //echo esc_attr( get_custom_header()->width ); ?><!--" height="--><?php //echo esc_attr( get_custom_header()->height ); ?><!--" alt="--><?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?><!--">-->
+                    <div id="particles-js"></div>
+                    <script src="wp-content/themes/poseidon-dlss/custom/particles.js"></script>
+                    <script src="wp-content/themes/poseidon-dlss/custom/particles.app.js"></script>
 			<?php endif; ?>
 
 			</div>
