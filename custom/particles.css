@@ -9,3 +9,14 @@
     background-repeat: no-repeat;
     /*position: absolute;*/
 }
+
+#particles-text{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -176px;
+    backface-visibility: hidden;
+    z-index: 2;
+    color: #FFF;
+    font-size: 36px;
+}

@@ -28,7 +28,7 @@
 
 		<?php do_action( 'poseidon_header_bar' ); ?>
 
-		<header id="masthead" class="site-header clearfix" role="banner">
+		<header id="masthead" class="site-header clearfix" role="banner" style="z-index: 9999;">
 
 			<div class="header-main container clearfix">
 
@@ -67,4 +67,4 @@
 
 		<?php poseidon_breadcrumbs(); ?>
 
-		<div id="content" class="site-content container clearfix">
+		<div id="content" style="position: relative; top: -72px;" class="site-content container clearfix">
