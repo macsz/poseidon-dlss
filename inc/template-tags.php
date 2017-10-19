@@ -105,11 +105,11 @@ if ( ! function_exists( 'poseidon_header_image' ) ) :
 			<?php else : ?>
 
 <!--				<img src="--><?php //header_image(); ?><!--" srcset="--><?php //echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id, 'full' ) ); ?><!--" width="--><?php //echo esc_attr( get_custom_header()->width ); ?><!--" height="--><?php //echo esc_attr( get_custom_header()->height ); ?><!--" alt="--><?php //echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?><!--">-->
-                    <div id="particles-js">
-                    </div>
-                <div id="particles-text">July 2-5, 2018 in Gdansk, Poland</div>
-                    <script src="wp-content/themes/poseidon-dlss/custom/particles.js"></script>
-                    <script src="wp-content/themes/poseidon-dlss/custom/particles.app.js"></script>
+                <div id="particles-js">
+                </div>
+                <div id="particles-text">July 2-6, 2018 in Gdansk, Poland</div>
+                <script src="<?php echo get_site_url(); ?>/wp-content/themes/poseidon-dlss/custom/particles.js"></script>
+                <script src="<?php echo get_site_url(); ?>/wp-content/themes/poseidon-dlss/custom/particles.app.js"></script>
 
                 <?php echo do_shortcode('[tm-timeline layout="0" visible-items="8" date-format="5" anchors="false" order="ASC"]'); ?>
 			<?php endif; ?>

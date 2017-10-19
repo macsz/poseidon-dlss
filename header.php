@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" type="text/css" href="wp-content/themes/poseidon-dlss/custom/particles.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_site_url(); ?>/wp-content/themes/poseidon-dlss/custom/particles.css" />
 
 <?php wp_head(); ?>
 </head>
