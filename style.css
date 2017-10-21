@@ -658,6 +658,8 @@ textarea {
 .site-content {
 	padding-top: 3em;
 	background: #fff;
+	position: relative;
+	top: -72px;
 }
 
 .content-area {
@@ -704,6 +706,13 @@ textarea {
 	margin: 1em 0;
 	padding: 0;
 	max-width: 100%;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align:center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
 }
 
 .site-branding a:link,
@@ -776,7 +785,8 @@ textarea {
 --------------------------------------------------------------*/
 .primary-navigation {
 	float: right;
-	margin: 1em 0;
+	/*margin: 1em 0;*/
+	margin: 32px 0 0 0;
 }
 
 .main-navigation-toggle {
@@ -1763,6 +1773,13 @@ body.date-hidden.author-hidden.categories-hidden .content-area .entry-meta {
 
 .footer-wrap table, .footer-wrap tr, .footer-wrap td{
 	border:0;
+}
+
+.footer-wrap iframe{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:450px;
 }
 
 .footer-wrap a, .footer-wrap a:visited{

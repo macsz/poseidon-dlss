@@ -20,8 +20,7 @@
 
 	<div id="footer" class="footer-wrap">
                 <iframe
-                width="100%" height="450"
-                frameborder="0" style="padding:0; margin:0;"
+                frameborder="0"
                 src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDvh418Bz91j_VTKy3QU_UcFwMaa0Bonlw&q=Politechnika Gdańska Wydział Elektroniki, Telekomunikacji i Informatyki"
                 allowfullscreen>
         </iframe>

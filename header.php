@@ -32,9 +32,7 @@
 
 			<div class="header-main container clearfix">
 
-				<div id="logo" class="site-branding clearfix" style="display: -ms-flexbox; display: -webkit-flex;
-				    display: flex; -ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center;
-				    align-items: center;">
+				<div id="logo" class="site-branding clearfix">
 
 					<?php poseidon_site_logo(); ?>
 					<?php poseidon_site_title(); ?>
@@ -42,8 +40,7 @@
 
 				</div><!-- .site-branding -->
 
-				<nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation"
-                    style="margin: 32px 0 0 0;">
+				<nav id="main-navigation" class="primary-navigation navigation clearfix" role="navigation">
 					<?php
 						// Display Main Navigation.
 						wp_nav_menu( array(
@@ -67,4 +64,4 @@
 
 		<?php poseidon_breadcrumbs(); ?>
 
-		<div id="content" style="position: relative; top: -72px;" class="site-content container clearfix">
+		<div id="content" class="site-content container clearfix">
