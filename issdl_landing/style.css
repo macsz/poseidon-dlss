@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*
+Theme Name: ISSDL Landing
+Theme URI: https://github.com/macsz/poseidon-dlss/issdl_landing
+Author: Maciej Szankin
+Author URI: https://github.com/macsz
+Description: Landing page for ISSDL
+Requires at least: WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ISSDL
+Tags: issdl
+
+This theme is used as a landing page for ISSDL.
+*/
+
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+   html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+   body{line-height:1}
+   article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+   nav ul{list-style:none}
+   blockquote,q{quotes:none}
+   blockquote:before,blockquote:after,q:before,q:after{content:none}
+   a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+   mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+   del{text-decoration:line-through}
+   abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+   table{border-collapse:collapse;border-spacing:0}
+   hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+   input,select{vertical-align:middle}
+   li{list-style:none}
+   
+   
+   /* =============================================================================
+      My CSS
+      ========================================================================== */
+   
+   /* ---- base ---- */
+   
+   html,body{ 
+       width:100%;
+       height:100%;
+       background:#111;
+       position: relative;
+   }
+   
+   html{
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   }
+   
+   body{
+     font:normal 75% Arial, Helvetica, sans-serif;
+   }
+   
+   canvas{
+     display:block;
+     vertical-align:bottom;
+   }
+   
+   
+   /* ---- stats.js ---- */
+   
+   .count-particles{
+     background: #000022;
+     position: absolute;
+     top: 48px;
+     left: 0;
+     width: 80px;
+     color: #13E8E9;
+     font-size: .8em;
+     text-align: left;
+     text-indent: 4px;
+     line-height: 14px;
+     padding-bottom: 2px;
+     font-family: Helvetica, Arial, sans-serif;
+     font-weight: bold;
+   }
+   
+   .js-count-particles{
+     font-size: 1.1em;
+   }
+   
+   #stats,
+   .count-particles{
+     -webkit-user-select: none;
+     margin-top: 5px;
+     margin-left: 5px;
+   }
+   
+   #stats{
+     border-radius: 3px 3px 0 0;
+     overflow: hidden;
+   }
+   
+   .count-particles{
+     border-radius: 0 0 3px 3px;
+   }
+   
+   
+   /* ---- particles.js container ---- */
+   
+   #particles-js{
+     width: 100%;
+     height: 100%;
+     background-color: #03203C;
+     background-image: url('');
+     background-size: cover;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+   }
+   
+
+   #centered{
+    position: absolute;
+    width: 600px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF;
+    border: 1px solid #333;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    font-family: 'Raleway', sans-serif;
+   }
+
+   #content{
+       margin:20px;
+   }
+
+    #welcome{
+        text-align: center;
+        font-size: 2.0em;
+    }
+
+    #issdl{
+        font-size: 2.8em;
+        text-align: center;
+    }
+
+    #issdl img{
+        vertical-align:middle;
+        max-height: 45px;
+        margin:10px;
+    }
+
+    .highlight{
+        clear: both;
+        width: 80%;
+        color:#0099DD;
+        /* background-color: #e4effa;
+        border:1px solid #0099DD; */
+        border-left: 0;
+        border-right: 0;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size:2.0em;
+        text-align: center;
+    }
+    .highlight:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: #c00;
+    }
+    .highlight div{
+        padding: 10px;
+    }
+
+    #previous{
+        font-size: 1.2em;
+        width: 80%;
+        margin: auto;
+        color:#666;
+    }
+    #previous a, #previous a:visited{
+        color:#0099DD;
+        text-decoration: underline;
+    }
+    #previous a:hover{
+        color: #c00;
+    }
