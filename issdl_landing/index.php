@@ -33,7 +33,7 @@ $DEBUG=0;
         <p style="border:1px solid #0099DD; margin:0 0 1px 0;"></p>
       </div>
       <div id="previous">
-        All editions: <a href="http://2018.dl-lab.eu/">2018</a> <a href="http://2018.dl-lab.eu/">2019</a>
+        All editions: <a href="http://2018.dl-lab.eu/">2018</a> <a href="http://2019.dl-lab.eu/">2019</a>
       </div>
     </div>
   </div>  
